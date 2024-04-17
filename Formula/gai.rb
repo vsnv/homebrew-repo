@@ -3,7 +3,7 @@ class Gai < Formula
   homepage "https://github.com/vsnv/gai"
   url "https://github.com/vsnv/gai.git",
       tag:      "1.0.0",
-      revision: "133a3e17557d191f5ad8d8c7574556ca31f06ab0"
+      revision: "745eb6948fc3fce9c9058f7750988609b69597e7"
   license "Apache-2.0"
   version_scheme 1
   head "https://github.com/vsnv/gai", branch: "main"
@@ -13,7 +13,7 @@ class Gai < Formula
     strategy :github_latest
   end
 
-  depends_on xcode: ["14.0", :build]
+  depends_on xcode: ["15.3", :build]
 
   uses_from_macos "swift"
 
